@@ -1,0 +1,113 @@
+$color_1: #000;
+$color_2: #F11133;
+$color_3: #542E90;
+$color_4: var(--primary-color);
+$color_5: #fff;
+$background-color_1: #FFF100;
+$background-color_2: #3C3C3B;
+
+.navbar {
+	background-color: $background-color_1;
+}
+.shop {
+	color: $color_1;
+}
+.search1 {
+	position: absolute;
+	top: 15%;
+}
+.ad {
+	padding-left: 8%;
+}
+.ad1 {
+	img {
+		height: 5% !important;
+	}
+}
+.types {
+	.offer {
+		color: $color_2;
+	}
+}
+.lists {
+	border-bottom: 1px solid #00000036;
+	a {
+		border-bottom: 2px solid #000;
+	}
+}
+.off {
+	background-color: $background-color_1;
+}
+.price {
+	color: $color_3;
+}
+.products {
+	.btn-link {
+		border: 0.5px solid #D9D9D9;
+		border-radius: 50%;
+		padding: 2%;
+		color: $color_3;
+	}
+	.sport {
+		height: 83%;
+	}
+}
+.similar {
+	.img1 {
+		width: 96%;
+		height: 254px;
+	}
+	.ad1 {
+		img {
+			width: 20%;
+		}
+	}
+}
+.similar-img {
+	.img1 {
+		padding-left: 80%;
+	}
+}
+footer {
+	background-color: $background-color_2;
+	.Subscribe_subscribe {
+		background: #fff 0 0 no-repeat padding-box;
+		border-radius: 32px;
+		display: flex;
+		padding: 5px 5px 5px 14px;
+		height: 55px;
+	}
+}
+.Subscribe_input {
+	border: none;
+	color: $color_4;
+	font-size: 16px;
+	font-weight: 700;
+	outline: none;
+	width: 90%;
+}
+.Subscribe_send {
+	align-items: center;
+	background: #fff200 0 0 no-repeat padding-box;
+	border: none;
+	border-radius: 35px;
+	display: flex;
+	flex-direction: row;
+	font-size: 17px;
+	font-weight: 700;
+	justify-content: center;
+	outline: none;
+	padding: 13px 20px;
+	text-align: center;
+}
+.footer {
+	li {
+		.text {
+			color: $color_5;
+		}
+		line-height: 32px;
+	}
+	.cards {
+		padding-left: 9%;
+	}
+}
